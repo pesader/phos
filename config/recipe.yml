@@ -20,8 +20,8 @@ modules:
   - type: rpm-ostree
     repos:
       - https://repo.nextdns.io/nextdns.repo
-      - https://copr.fedorainfracloud.org/coprs/dawid/gocryptfs/repo/fedora-39/dawid-gocryptfs-fedora-39.repo
-      - https://copr.fedorainfracloud.org/coprs/pesader/showmethekey/repo/fedora-39/pesader-showmethekey-fedora-39.repo
+      - https://copr.fedorainfracloud.org/coprs/dawid/gocryptfs/repo/fedora-${image-version}/dawid-gocryptfs-fedora-${image-version}.repo
+      - https://copr.fedorainfracloud.org/coprs/pesader/showmethekey/repo/fedora-${image-version}/pesader-showmethekey-fedora-39.repo
     install:
       - btrfs-assistant
       - nautilus-python
