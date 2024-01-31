@@ -22,11 +22,13 @@ modules:
       - https://repo.nextdns.io/nextdns.repo
       - https://copr.fedorainfracloud.org/coprs/dawid/gocryptfs/repo/fedora-39/dawid-gocryptfs-fedora-39.repo
       - https://copr.fedorainfracloud.org/coprs/pesader/showmethekey/repo/fedora-39/pesader-showmethekey-fedora-39.repo
+      - https://packagecloud.io/install/repositories/filips/FirefoxPWA/config_file.repo?os=fedora&dist=39
     install:
       - btrfs-assistant
       - nautilus-python
       - neovim
       - nextdns
+      - firefoxpwa
       - gocryptfs
       - guake
       - podman-remote
