@@ -23,6 +23,7 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/dawid/gocryptfs/repo/fedora-%OS_VERSION%/dawid-gocryptfs-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/pesader/showmethekey/repo/fedora-%OS_VERSION%/pesader-showmethekey-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+      - https://download.opensuse.org/repositories/home:TheLocehiliosan:yadm/Fedora_%OS_VERSION%/home:TheLocehiliosan:yadm.repo
     install:
       - adw-gtk3-theme
       - btrfs-assistant
@@ -37,6 +38,7 @@ modules:
       - starship
       - steam-devices
       - sushi
+      - yadm
       - zsh
   - type: script
     scripts:
