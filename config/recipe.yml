@@ -1,5 +1,5 @@
 name: ublue-custom
-description: My custom UBlue image, with support for Microsoft Surface hardware
+description: A custom UBlue image for my own personal usage
 base-image: ghcr.io/ublue-os/silverblue-surface
 image-version: 39
 
