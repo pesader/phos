@@ -16,7 +16,7 @@ modules:
     install:
       - v4l2loopback
 
-# First-party packages -------------------------------------------------------
+# First-party RPM packages ---------------------------------------------------
 
   - type: rpm-ostree
     install:
@@ -31,7 +31,7 @@ modules:
       - sushi
       - zsh
 
-# Third-party packages -------------------------------------------------------
+# Third-party RPM packages ---------------------------------------------------
 
   # NextDNS
   - type: rpm-ostree
