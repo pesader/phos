@@ -10,6 +10,12 @@ modules:
     files:
       - usr: /usr
 
+# Akmods ---------------------------------------------------------------------
+
+  - type: akmods
+    install:
+      - v4l2loopback
+
 # First-party packages -------------------------------------------------------
 
   - type: rpm-ostree
@@ -74,12 +80,6 @@ modules:
   - type: script
     scripts:
       - install-awatcher.sh
-
-# Akmods ---------------------------------------------------------------------
-
-  - type: akmods
-    install:
-      - v4l2loopback
 
 # Signing policy -------------------------------------------------------------
 
