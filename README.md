@@ -1,4 +1,4 @@
-# ublue-custom
+# Phos
 
 > **Warning**
 > Startingpoint was recently rewritten, and this version is considered a "1.0" *semi-*stable release.
@@ -10,6 +10,12 @@
 This is a constantly updating template repository for creating [a native container image](https://fedoraproject.org/wiki/Changes/OstreeNativeContainerStable) designed to be customized however you want. GitHub will build your image for you, and then host it for you on [ghcr.io](https://github.com/features/packages). You then just tell your computer to boot off of that image. GitHub keeps 90 days worth image backups for you, thanks Microsoft!
 
 For more info, check out the [uBlue homepage](https://universal-blue.org/) and the [main uBlue repo](https://github.com/ublue-os/main/)
+
+## Why the name
+
+The immutable variants of Fedora are named after minerals (Silverblue, Kinoite, Onyx, etc), so I wanted to do the same for mine. I ended up choosing "Phos", a shorthand for Phosphophyllite. This was a homage to the main character of "Land of the Lustrous", which is probably my favorite story of all time.
+
+Besides, "Phos" sounds a lot like FOSS, which is nice little hint at the role of Free Software in this project.
 
 ## Getting started
 
