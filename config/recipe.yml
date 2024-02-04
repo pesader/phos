@@ -68,6 +68,10 @@ modules:
     install:
       - firefoxpwa
 
+  - type: script
+    scripts:
+      - install-awatcher.sh
+
   - type: akmods
     install:
       - v4l2loopback
