@@ -25,7 +25,6 @@ modules:
       - nautilus-python
       - neovim
       - guake
-      - podman-remote
       - seahorse-nautilus
       - steam-devices
       - sushi
@@ -39,13 +38,6 @@ modules:
       - https://repo.nextdns.io/nextdns.repo
     install:
       - nextdns
-
-  # gocrypts
-  - type: rpm-ostree
-    repos:
-      - https://copr.fedorainfracloud.org/coprs/dawid/gocryptfs/repo/fedora-%OS_VERSION%/dawid-gocryptfs-fedora-%OS_VERSION%.repo
-    install:
-      - gocryptfs
 
   # showmethekey
   - type: rpm-ostree
@@ -96,7 +88,6 @@ modules:
         - com.github.hluk.copyq
         - com.github.huluti.Curtail
         - com.github.jeromerobert.pdfarranger
-        - com.github.marhkb.Pods
         - com.github.tchx84.Flatseal
         - com.github.tenderowl.frog
         - com.mattjakeman.ExtensionManager
@@ -107,7 +98,6 @@ modules:
         - io.github.fabrialberio.pinapp
         - io.github.flattool.Warehouse
         - io.github.hrkfdn.ncspot
-        - io.github.mpobaschnig.Vaults
         - io.github.realmazharhussain.GdmSettings
         - io.github.seadve.Kooha
         - io.github.slgobinath.SafeEyes
@@ -148,6 +138,28 @@ modules:
         - org.libreoffice.LibreOffice
         - org.nickvision.tubeconverter
         - re.sonny.Workbench
+
+# Flatpaks with RPM dependencies ---------------------------------------------
+
+  # Vaults (depends on gocryptfs)
+  - type: rpm-ostree
+    repos:
+      - https://copr.fedorainfracloud.org/coprs/dawid/gocryptfs/repo/fedora-%OS_VERSION%/dawid-gocryptfs-fedora-%OS_VERSION%.repo
+    install:
+      - gocryptfs
+  - type: default-flatpaks
+    user:
+      install:
+        - io.github.mpobaschnig.Vaults
+
+  # Pods (depends on podman-remote)
+  - type: rpm-ostree
+    install:
+      - podman-remote
+  - type: default-flatpaks
+    user:
+      install:
+        - com.github.marhkb.Pods
 
 # Signing policy -------------------------------------------------------------
 
