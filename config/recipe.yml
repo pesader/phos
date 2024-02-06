@@ -73,6 +73,13 @@ modules:
     scripts:
       - install-awatcher.sh
 
+  # surface-secureboot
+  - type: rpm-ostree
+    repos:
+      - https://pkg.surfacelinux.com/fedora/linux-surface.repo
+    install:
+      - surface-secureboot
+
 # Flatpaks -------------------------------------------------------------------
 
   - type: default-flatpaks
