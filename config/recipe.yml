@@ -25,6 +25,7 @@ modules:
       - guake
       - nautilus-python
       - neovim
+      - openfortivpn
       - seahorse-nautilus
       - steam-devices
       - sushi
