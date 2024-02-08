@@ -22,9 +22,9 @@ modules:
     install:
       - adw-gtk3-theme
       - btrfs-assistant
+      - guake
       - nautilus-python
       - neovim
-      - guake
       - seahorse-nautilus
       - steam-devices
       - sushi
@@ -32,7 +32,27 @@ modules:
 
 # Third-party RPM packages ---------------------------------------------------
 
-  # NextDNS
+  # awatcher
+  - type: script
+    scripts:
+      - install-awatcher.sh
+
+  # droidcam
+  - type: rpm-ostree
+    repos:
+      - https://copr.fedorainfracloud.org/coprs/meeuw/droidcam/repo/fedora-%OS_VERSION%/meeuw-droidcam-fedora-%OS_VERSION%.repo
+    install:
+      - droidcam
+
+  # firefoxpwa
+  - type: script
+    scripts:
+      - add-firefoxpwa-repo.sh
+  - type: rpm-ostree
+    install:
+      - firefoxpwa
+
+  # nextdns
   - type: rpm-ostree
     repos:
       - https://repo.nextdns.io/nextdns.repo
@@ -59,26 +79,6 @@ modules:
       - https://download.opensuse.org/repositories/home:TheLocehiliosan:yadm/Fedora_%OS_VERSION%/home:TheLocehiliosan:yadm.repo
     install:
       - yadm
-
-  # droidcam
-  - type: rpm-ostree
-    repos:
-      - https://copr.fedorainfracloud.org/coprs/meeuw/droidcam/repo/fedora-%OS_VERSION%/meeuw-droidcam-fedora-%OS_VERSION%.repo
-    install:
-      - droidcam
-
-  # firefoxpwa
-  - type: script
-    scripts:
-      - add-firefoxpwa-repo.sh
-  - type: rpm-ostree
-    install:
-      - firefoxpwa
-
-  # awatcher
-  - type: script
-    scripts:
-      - install-awatcher.sh
 
 # Flatpaks -------------------------------------------------------------------
 
