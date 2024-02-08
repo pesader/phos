@@ -105,7 +105,6 @@ modules:
         - io.github.fabrialberio.pinapp
         - io.github.flattool.Warehouse
         - io.github.hrkfdn.ncspot
-        - io.github.realmazharhussain.GdmSettings
         - io.github.seadve.Kooha
         - io.github.slgobinath.SafeEyes
         - io.gitlab.adhami3310.Converter
