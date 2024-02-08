@@ -60,6 +60,13 @@ modules:
     install:
       - yadm
 
+  # droidcam
+  - type: rpm-ostree
+    repos:
+      - https://copr.fedorainfracloud.org/coprs/meeuw/droidcam/repo/fedora-%OS_VERSION%/meeuw-droidcam-fedora-%OS_VERSION%.repo
+    install:
+      - droidcam
+
   # firefoxpwa
   - type: script
     scripts:
