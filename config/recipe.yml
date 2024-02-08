@@ -148,6 +148,15 @@ modules:
 
 # Flatpaks with RPM dependencies ---------------------------------------------
 
+  # Pods (depends on podman-remote)
+  - type: rpm-ostree
+    install:
+      - podman-remote
+  - type: default-flatpaks
+    user:
+      install:
+        - com.github.marhkb.Pods
+
   # Vaults (depends on gocryptfs)
   - type: rpm-ostree
     repos:
@@ -158,15 +167,6 @@ modules:
     user:
       install:
         - io.github.mpobaschnig.Vaults
-
-  # Pods (depends on podman-remote)
-  - type: rpm-ostree
-    install:
-      - podman-remote
-  - type: default-flatpaks
-    user:
-      install:
-        - com.github.marhkb.Pods
 
 # Signing policy -------------------------------------------------------------
 
