@@ -25,7 +25,6 @@ modules:
       - guake
       - nautilus-python
       - neovim
-      - openfortivpn
       - seahorse-nautilus
       - steam-devices
       - sushi
@@ -146,7 +145,15 @@ modules:
         - org.nickvision.tubeconverter
         - re.sonny.Workbench
 
-# Flatpaks with RPM dependencies ---------------------------------------------
+# Bundles --------------------------------------------------------------------
+
+  # openfortivpn (needs openfortivpn-webview)
+  - type: rpm-ostree
+    install:
+      - openfortivpn
+  - type: script
+    scripts:
+      - install-openfortivpn-webview.sh
 
   # Pods (depends on podman-remote)
   - type: rpm-ostree
