@@ -3,12 +3,12 @@ description: A custom UBlue image for my own personal usage
 base-image: ghcr.io/ublue-os/silverblue-surface
 image-version: 39
 
-# Files ----------------------------------------------------------------------
+# Just ----------------------------------------------------------------------
 
 modules:
   - type: files
     files:
-      - usr: /usr
+      - usr/share/ublue-os/just: /usr/share/ublue-os/just
 
 # Akmods ---------------------------------------------------------------------
 
