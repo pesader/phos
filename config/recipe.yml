@@ -33,6 +33,7 @@ modules:
       - guake
       - nautilus-python
       - neovim
+      - ripgrep
       - seahorse-nautilus
       - steam-devices
       - sushi
