@@ -188,6 +188,17 @@ modules:
 
 # Signing policy -------------------------------------------------------------
 
+  # fzf
+  - type: rpm-ostree
+    install:
+      - fzf
+  - type: files
+    files:
+      - usr/etc/profile.d/fzf.sh: /usr/etc/profile.d/fzf.sh
+
+
+# Signing policy -------------------------------------------------------------
+
   - type: script
     scripts:
       - signing.sh
