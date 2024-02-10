@@ -179,7 +179,7 @@ modules:
       install:
         - io.github.mpobaschnig.Vaults
 
-# Signing policy -------------------------------------------------------------
+# Shell tools ----------------------------------------------------------------
 
   # fzf
   - type: rpm-ostree
