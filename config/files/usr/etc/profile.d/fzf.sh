@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # zsh
 if echo $SHELL | grep -q "zsh"; then
     source /usr/share/fzf/shell/key-bindings.zsh
