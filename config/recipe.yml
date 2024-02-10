@@ -65,6 +65,9 @@ modules:
       - https://repo.nextdns.io/nextdns.repo
     install:
       - nextdns
+  - type: script
+    scripts:
+      - setup-cache-in-nextdns.sh
 
   # showmethekey
   - type: rpm-ostree
