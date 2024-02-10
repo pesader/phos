@@ -29,6 +29,7 @@ modules:
     install:
       - adw-gtk3-theme
       - btrfs-assistant
+      - gh
       - guake
       - nautilus-python
       - neovim
