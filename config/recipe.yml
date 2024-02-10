@@ -77,6 +77,13 @@ modules:
     install:
       - showmethekey
 
+  # starship
+  - type: rpm-ostree
+    repos:
+      - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+    install:
+      - starship
+
   # yadm
   - type: rpm-ostree
     repos:
@@ -188,16 +195,6 @@ modules:
   - type: files
     files:
       - usr/etc/profile.d/fzf.sh: /usr/etc/profile.d/fzf.sh
-
-  # starship
-  - type: rpm-ostree
-    repos:
-      - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
-    install:
-      - starship
-  - type: files
-    files:
-      - usr/etc/profile.d/starship.sh: /usr/etc/profile.d/starship.sh
 
   # zoxide
   - type: rpm-ostree
