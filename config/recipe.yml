@@ -61,6 +61,13 @@ modules:
     install:
       - firefoxpwa
 
+  # hblock
+  - type: rpm-ostree
+    repos:
+      - https://copr.fedorainfracloud.org/coprs/pesader/hblock/repo/fedora-%OS_VERSION%/pesader-hblock-fedora-%OS_VERSION%.repo
+    install:
+      - hblock
+
   # nextdns
   - type: rpm-ostree
     repos:
