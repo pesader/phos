@@ -97,6 +97,7 @@ modules:
         - com.github.hluk.copyq
         - com.github.huluti.Curtail
         - com.github.jeromerobert.pdfarranger
+        - com.github.marhkb.Pods
         - com.github.tchx84.Flatseal
         - com.github.tenderowl.frog
         - com.mattjakeman.ExtensionManager
@@ -104,9 +105,9 @@ modules:
         - com.stremio.Stremio
         - de.haeckerfelix.Fragments
         - io.github.celluloid_player.Celluloid
-        - io.github.fabrialberio.pinapp
         - io.github.flattool.Warehouse
         - io.github.hrkfdn.ncspot
+        - io.github.mpobaschnig.Vaults
         - io.github.seadve.Kooha
         - io.github.slgobinath.SafeEyes
         - io.gitlab.adhami3310.Converter
@@ -114,8 +115,9 @@ modules:
         - io.gitlab.adhami3310.Impression
         - io.gitlab.theevilskeleton.Upscaler
         - io.typora.Typora
-        - it.mijorus.collector
+        - it.mijorus.gearlever
         - it.mijorus.smile
+        - md.obsidian.Obsidian
         - me.dusansimic.DynamicWallpaper
         - me.iepure.devtoolbox
         - nl.hjdskes.gcolor3
@@ -131,6 +133,7 @@ modules:
         - org.gnome.Logs
         - org.gnome.Loupe
         - org.gnome.NetworkDisplays
+        - org.gnome.Shotwell
         - org.gnome.Weather
         - org.gnome.World.PikaBackup
         - org.gnome.baobab
@@ -138,6 +141,7 @@ modules:
         - org.gnome.design.Emblem
         - org.gnome.design.IconLibrary
         - org.gnome.design.Palette
+        - org.gnome.design.SymbolicPreview
         - org.gnome.dspy
         - org.gnome.font-viewer
         - org.gnome.seahorse.Application
@@ -145,6 +149,7 @@ modules:
         - org.librehunt.Organizer
         - org.libreoffice.LibreOffice
         - org.nickvision.tubeconverter
+        - page.codeberg.libre_menu_editor.LibreMenuEditor
         - re.sonny.Workbench
 
 # Bundles --------------------------------------------------------------------
