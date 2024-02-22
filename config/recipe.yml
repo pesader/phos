@@ -1,6 +1,6 @@
 name: phos
 description: A custom UBlue image for my own personal usage
-base-image: ghcr.io/ublue-os/silverblue-surface
+base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 39
 
 # Just ----------------------------------------------------------------------
