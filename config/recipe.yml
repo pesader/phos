@@ -16,13 +16,6 @@ modules:
     install:
       - v4l2loopback
 
-# Fonts ----------------------------------------------------------------------
-
-  - type: fonts
-    fonts:
-      nerd-fonts:
-        - JetBrainsMono
-
 # First-party RPM packages ---------------------------------------------------
 
   - type: rpm-ostree
