@@ -22,6 +22,7 @@ modules:
     install:
       - adw-gtk3-theme
       - btrfs-assistant
+      - firewall-config
       - gh
       - guake
       - nautilus-python
