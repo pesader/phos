@@ -69,13 +69,6 @@ modules:
     install:
       - showmethekey
 
-  # tailscale
-  - type: rpm-ostree
-    repos:
-      - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
-    install:
-      - tailscale
-
   # yadm
   - type: rpm-ostree
     repos:
