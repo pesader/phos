@@ -25,6 +25,7 @@ modules:
       - firewall-config
       - gh
       - guake
+      - intel-vsc-firmware
       - nautilus-python
       - neovim
       - ripgrep
