@@ -149,6 +149,15 @@ modules:
 
 # Bundles --------------------------------------------------------------------
 
+  # GDM Settings (depends on systemd-container)
+  - type: rpm-ostree
+    install:
+      - systemd-container
+  - type: default-flatpaks
+    user:
+      install:
+        - io.github.realmazharhussain.GdmSettings
+
   # openfortivpn (needs openfortivpn-webview)
   - type: rpm-ostree
     install:
