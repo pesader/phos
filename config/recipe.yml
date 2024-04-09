@@ -1,7 +1,7 @@
 name: phos
 description: A custom UBlue image for my own personal usage
 base-image: ghcr.io/ublue-os/silverblue-main
-image-version: 39
+image-version: 40
 
 # Just ----------------------------------------------------------------------
 
@@ -37,13 +37,6 @@ modules:
 
 # Third-party RPM packages ---------------------------------------------------
 
-  # droidcam
-  - type: rpm-ostree
-    repos:
-      - https://copr.fedorainfracloud.org/coprs/meeuw/droidcam/repo/fedora-%OS_VERSION%/meeuw-droidcam-fedora-%OS_VERSION%.repo
-    install:
-      - droidcam
-
   # firefoxpwa
   - type: script
     scripts:
@@ -65,13 +58,6 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/pesader/showmethekey/repo/fedora-%OS_VERSION%/pesader-showmethekey-fedora-%OS_VERSION%.repo
     install:
       - showmethekey
-
-  # yadm
-  - type: rpm-ostree
-    repos:
-      - https://download.opensuse.org/repositories/home:TheLocehiliosan:yadm/Fedora_%OS_VERSION%/home:TheLocehiliosan:yadm.repo
-    install:
-      - yadm
 
 # Miscellaneous installation methods -----------------------------------------
 
