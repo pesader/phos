@@ -37,11 +37,6 @@ modules:
 
 # Third-party RPM packages ---------------------------------------------------
 
-  # awatcher
-  - type: script
-    scripts:
-      - install-awatcher.sh
-
   # droidcam
   - type: rpm-ostree
     repos:
@@ -77,6 +72,13 @@ modules:
       - https://download.opensuse.org/repositories/home:TheLocehiliosan:yadm/Fedora_%OS_VERSION%/home:TheLocehiliosan:yadm.repo
     install:
       - yadm
+
+# Miscellaneous installation methods -----------------------------------------
+
+  # awatcher (shell script)
+  - type: script
+    scripts:
+      - install-awatcher.sh
 
 # Flatpaks -------------------------------------------------------------------
 
