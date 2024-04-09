@@ -25,6 +25,7 @@ modules:
       - firewall-config
       - gh
       - guake
+      - igt-gpu-tools
       - intel-vsc-firmware
       - nautilus-python
       - neovim
