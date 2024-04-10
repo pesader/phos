@@ -31,6 +31,7 @@ modules:
       - neovim
       - ripgrep
       - seahorse-nautilus
+      - slirp4netns
       - steam-devices
       - sushi
       - zsh
