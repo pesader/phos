@@ -3,12 +3,7 @@ description: A custom UBlue image for my own personal usage
 base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 40
 
-# Just ----------------------------------------------------------------------
-
 modules:
-  - type: files
-    files:
-      - usr/share/ublue-os/just: /usr/share/ublue-os/just
 
 # Akmods ---------------------------------------------------------------------
 
@@ -187,6 +182,4 @@ modules:
 
 # Signing policy -------------------------------------------------------------
 
-  - type: script
-    scripts:
-      - signing.sh
+  - type: signing
