@@ -134,14 +134,6 @@ modules:
 
 # Bundles --------------------------------------------------------------------
 
-  # openfortivpn (needs openfortivpn-webview)
-  - type: rpm-ostree
-    install:
-      - openfortivpn
-  - type: script
-    scripts:
-      - install-openfortivpn-webview.sh
-
   # Pods (depends on podman-remote)
   - type: rpm-ostree
     install:
