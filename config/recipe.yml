@@ -154,6 +154,7 @@ modules:
   # Turtle (depends on python-pygit2 and meld)
   - type: rpm-ostree
     install:
+      - nautilus-python
       - python-pygit2
       - meld
   - type: default-flatpaks
