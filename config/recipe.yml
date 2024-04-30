@@ -18,6 +18,7 @@ modules:
       - adw-gtk3-theme
       - btrfs-assistant
       - firewall-config
+      - fzf
       - gh
       - guake
       - igt-gpu-tools
@@ -29,6 +30,7 @@ modules:
       - slirp4netns
       - steam-devices
       - sushi
+      - zoxide
       - zsh
 
 # Third-party RPM packages ---------------------------------------------------
@@ -153,24 +155,6 @@ modules:
     user:
       install:
         - io.github.mpobaschnig.Vaults
-
-# Shell tools ----------------------------------------------------------------
-
-  # fzf
-  - type: rpm-ostree
-    install:
-      - fzf
-  - type: files
-    files:
-      - usr/etc/profile.d/fzf.sh: /usr/etc/profile.d/fzf.sh
-
-  # zoxide
-  - type: rpm-ostree
-    install:
-      - zoxide
-  - type: files
-    files:
-      - usr/etc/profile.d/zoxide.sh: /usr/etc/profile.d/zoxide.sh
 
 # Signing policy -------------------------------------------------------------
 
