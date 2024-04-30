@@ -151,17 +151,6 @@ modules:
       install:
         - com.github.marhkb.Pods
 
-  # Turtle (depends on python-pygit2 and meld)
-  - type: rpm-ostree
-    install:
-      - nautilus-python
-      - python-pygit2
-      - meld
-  - type: default-flatpaks
-    user:
-      install:
-        - de.philippun1.turtle
-
   # Vaults (depends on gocryptfs)
   - type: rpm-ostree
     repos:
