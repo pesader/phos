@@ -20,6 +20,7 @@ modules:
       - firewall-config
       - gh
       - guake
+      - gnome-network-displays
       - igt-gpu-tools
       - intel-vsc-firmware
       - nautilus-python
