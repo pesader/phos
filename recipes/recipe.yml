@@ -21,6 +21,7 @@ modules:
       - gh
       - guake
       - gnome-network-displays
+      - gnome-backgrounds-extras
       - igt-gpu-tools
       - intel-vsc-firmware
       - nautilus-python
