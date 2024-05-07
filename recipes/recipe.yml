@@ -20,7 +20,6 @@ modules:
       - firewall-config
       - gh
       - guake
-      - gnome-network-displays
       - gnome-backgrounds-extras
       - igt-gpu-tools
       - intel-vsc-firmware
@@ -119,7 +118,6 @@ modules:
         - org.gnome.Evince
         - org.gnome.Logs
         - org.gnome.Loupe
-        - org.gnome.NetworkDisplays
         - org.gnome.PowerStats
         - org.gnome.Shotwell
         - org.gnome.Weather
@@ -143,6 +141,13 @@ modules:
         - re.sonny.Workbench
 
 # Bundles --------------------------------------------------------------------
+
+  # GNOME Netowrk Displays (depends on some codecs)
+  - type: rpm-ostree
+    install:
+      - gstreamer1-plugin-openh264
+      - gstreamer1-plugins-ugly
+      - gnome-network-displays
 
   # Pods (depends on podman-remote)
   - type: rpm-ostree
