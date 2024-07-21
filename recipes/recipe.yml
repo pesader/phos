@@ -180,6 +180,11 @@ modules:
     files:
       - usr/etc/profile.d/zoxide.sh: /usr/etc/profile.d/zoxide.sh
 
+# Dotfiles -------------------------------------------------------------------
+
+  - type: chezmoi
+    repository: https://github.com/pesader/dotfiles
+
 # Signing policy -------------------------------------------------------------
 
   - type: signing
