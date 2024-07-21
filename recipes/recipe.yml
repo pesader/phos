@@ -182,19 +182,19 @@ modules:
 
 # GNOME Shell Extensions -----------------------------------------------------
 
-type: gnome-extensions
-install:
-  - App Icons Taskbar
-  - AppIndicator and KStatusNotifierItem Support
-  - Blur my Shell
-  - Caffeine
-  - Dim Completed Calendar Events
-  - Focus changer
-  - GSConnect
-  - Hot Edge
-  - Just Perfection
-  - Lock Keys
-  - Quick Close in Overview
+  - type: gnome-extensions
+    install:
+      - App Icons Taskbar
+      - AppIndicator and KStatusNotifierItem Support
+      - Blur my Shell
+      - Caffeine
+      - Dim Completed Calendar Events
+      - Focus changer
+      - GSConnect
+      - Hot Edge
+      - Just Perfection
+      - Lock Keys
+      - Quick Close in Overview
 
 # Dotfiles -------------------------------------------------------------------
 
