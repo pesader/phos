@@ -4,14 +4,6 @@ base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 40
 
 modules:
-
-# Akmods ---------------------------------------------------------------------
-
-  - type: akmods
-    base: main
-    install:
-      - v4l2loopback
-
 # First-party RPM packages ---------------------------------------------------
 
   - type: rpm-ostree
