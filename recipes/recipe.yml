@@ -193,8 +193,12 @@ modules:
       - GSConnect
       - Hot Edge
       - Just Perfection
-      - Lock Keys
       - Quick Close in Overview
+
+  - type: gnome-extensions
+    install:
+      - 36 # Lock Keys
+
 
 # Dotfiles -------------------------------------------------------------------
 
