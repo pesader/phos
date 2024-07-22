@@ -115,7 +115,7 @@ modules:
         - org.gnome.Loupe
         - org.gnome.PowerStats
         - org.gnome.Shotwell
-        - org.gnome.Showtime.Devel
+        - org.gnome.Showtime
         - org.gnome.Weather
         - org.gnome.World.PikaBackup
         - org.gnome.baobab
