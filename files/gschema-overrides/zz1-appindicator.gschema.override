@@ -1,0 +1,9 @@
+[org/gnome/shell/extensions/appindicator]
+custom-icons=@a(sss) []
+icon-brightness=0.0
+icon-contrast=0.0
+icon-opacity=100
+icon-saturation=1.0
+icon-size=16
+legacy-tray-enabled=true
+tray-pos='right'

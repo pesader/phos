@@ -1,0 +1,6 @@
+[org/gnome/shell/extensions/hotedge]
+edge-size=uint32 100
+fallback-in-use=false
+pressure-threshold=uint32 50
+suppress-activation-when-button-held=true
+suppress-activation-when-fullscreen=false

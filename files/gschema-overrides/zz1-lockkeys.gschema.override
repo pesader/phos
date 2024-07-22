@@ -1,0 +1,3 @@
+[org/gnome/shell/extensions/lockkeys]
+notification-preferences='osd'
+style='show-hide'

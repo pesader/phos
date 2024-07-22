@@ -1,0 +1,9 @@
+[org/gnome/shell/extensions/caffeine]
+inhibit-apps=['org.gnome.World.PikaBackup.desktop', 'com.stremio.Stremio.desktop', 'org.gnome.Evince.desktop', 'com.valvesoftware.Steam.desktop', 'FFPWA-01HES3A2S4V91ZMT8NWNQEMCHK.desktop', 'io.gitlab.theevilskeleton.Upscaler.desktop']
+nightlight-control='never'
+restore-state=true
+show-indicator='only-active'
+show-notifications=false
+show-timer=false
+toggle-shortcut=['']
+trigger-apps-mode='on-focus'

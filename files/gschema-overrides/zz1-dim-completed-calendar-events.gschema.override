@@ -1,0 +1,3 @@
+[org/gnome/shell/extensions/dim-completed-calendar-events]
+style-ongoing-events=true
+style-past-days=true

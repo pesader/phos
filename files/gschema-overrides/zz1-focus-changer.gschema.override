@@ -1,0 +1,5 @@
+[org/gnome/shell/extensions/focus-changer]
+focus-down=['<Super>j']
+focus-left=['<Super>h']
+focus-right=['<Super>l']
+focus-up=['<Super>k']

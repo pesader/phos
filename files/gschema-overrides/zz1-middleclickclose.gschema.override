@@ -1,0 +1,3 @@
+[org/gnome/shell/extensions/middleclickclose]
+close-button='middle'
+rearrange-delay=750
