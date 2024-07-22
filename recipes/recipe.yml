@@ -8,7 +8,6 @@ modules:
 
   - type: rpm-ostree
     install:
-      - adw-gtk3-theme
       - btrfs-assistant
       - firewall-config
       - gh
@@ -160,6 +159,22 @@ modules:
     user:
       install:
         - io.github.mpobaschnig.Vaults
+
+# GTK3 theme -----------------------------------------------------------------
+
+  - type: rpm-ostree
+    install:
+      - adw-gtk3-theme
+
+  - type: default-flatpaks
+    user:
+      install:
+        - org.gtk.Gtk3theme.adw-gtk3
+        - org.gtk.Gtk3theme.adw-gtk3-dark
+
+  - type: gschema-overrides
+    include:
+      - zz1-adw-gtk3.gschema.override
 
 # Shell tools ----------------------------------------------------------------
 
