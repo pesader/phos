@@ -227,6 +227,12 @@ modules:
   - type: chezmoi
     repository: https://github.com/pesader/dotfiles
 
+# GSettings ------------------------------------------------------------------
+
+  - type: gschema-overrides
+    include:
+      - zz1-basics.gschema.override
+
 # Signing policy -------------------------------------------------------------
 
   - type: signing
