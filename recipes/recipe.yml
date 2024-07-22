@@ -192,7 +192,8 @@ modules:
       - fzf
   - type: files
     files:
-      - usr/etc/profile.d/fzf.sh: /usr/etc/profile.d/fzf.sh
+      - source: system/usr/etc/profile.d/fzf.sh
+      - destination: /usr/etc/profile.d/fzf.sh
 
   # zoxide
   - type: rpm-ostree
@@ -200,7 +201,8 @@ modules:
       - zoxide
   - type: files
     files:
-      - usr/etc/profile.d/zoxide.sh: /usr/etc/profile.d/zoxide.sh
+      - source: system/usr/etc/profile.d/zoxide.sh
+      - destination: /usr/etc/profile.d/zoxide.sh
 
 # GNOME Shell Extensions -----------------------------------------------------
 

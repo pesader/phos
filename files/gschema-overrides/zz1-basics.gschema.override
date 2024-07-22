@@ -1,0 +1,48 @@
+[org/gnome/desktop/input-sources]
+xkb-options=['ctrl:nocaps', 'shift:both_capslock']
+
+[org/gnome/desktop/wm/keybindings]
+close=['<Super>q']
+always-on-top=['<Super>t']
+toggle-on-all-workspaces=['<Super>w']
+toggle-fullscreen=['<Super>f']
+toggle-maximized=['<Super>m']
+switch-to-workspace-left=['<Super>comma', '<Super>p', '<Super>Page_Up']
+switch-to-workspace-right=['<Super>period', '<Super>n', '<Super>Page_Down']
+move-to-workspace-left=['<Shift><Super>comma', '<Shift><Super>p', '<Super><Shift>Page_Up']
+move-to-workspace-right=['<Shift><Super>period', '<Shift><Super>n', '<Super><Shift>Page_Down']
+switch-applications=['<Alt>Tab']
+switch-applications-backward=['<Shift><Alt>Tab']
+switch-group=['<Alt>Above_Tab']
+switch-group-backward=['<Shift><Alt>Above_Tab']
+switch-windows=['<Super>Tab']
+switch-windows-backward=['<Super><Shift>Tab']
+
+
+[org/gnome/desktop/interface]
+clock-format='12h'
+show-battery-percentage=true
+enable-hot-corners=false
+gtk-key-theme='Emacs'
+
+[org/gnome/desktop/peripherals/mouse]
+natural-scroll=true
+
+[org/gnome/mutter/keybindings]
+switch-monitor=['XF86Display']
+
+
+[org/gnome/settings-daemon/plugins/media-keys]
+magnifier=['<Super>z']
+magnifier-zoom-in=['<Super>equal']
+magnifier-zoom-out=['<Super>minus']
+
+[org/gnome/settings-daemon/plugins/power]
+power-button-action='interactive'
+
+[org/gnome/shell/keybindings]
+focus-active-notification=['<Super>r']
+
+[org/gnome/software]
+download-updates-notify=false
+show-only-free-apps=true
