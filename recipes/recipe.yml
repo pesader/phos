@@ -212,7 +212,6 @@ modules:
       - Caffeine
       - Dim Completed Calendar Events
       - Focus changer
-      - GSConnect
       - Hot Edge
       - Just Perfection
       - Quick Close in Overview
@@ -221,6 +220,9 @@ modules:
     install:
       - 36 # Lock Keys
 
+  - type: rpm-ostree
+    install:
+      - gnome-shell-extension-gsconnect
 
 # Dotfiles -------------------------------------------------------------------
 
