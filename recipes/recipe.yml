@@ -61,6 +61,8 @@ modules:
   - type: default-flatpaks
     user:
       install:
+        - app.devsuite.Ptyxis
+        - app.drey.KeyRack
         - app.drey.Warp
         - ca.desrt.dconf-editor
         - com.belmoussaoui.Authenticator
@@ -68,7 +70,6 @@ modules:
         - com.belmoussaoui.Obfuscate
         - com.bitwarden.desktop
         - com.github.ADBeveridge.Raider
-        - com.github.finefindus.eyedropper
         - com.github.hluk.copyq
         - com.github.huluti.Curtail
         - com.github.jeromerobert.pdfarranger
@@ -78,16 +79,18 @@ modules:
         - com.mardojai.ForgeSparks
         - com.mattjakeman.ExtensionManager
         - com.obsproject.Studio
-        - com.rafaelmardojai.SharePreview
         - com.stremio.Stremio
+        - com.vscodium.codium
         - de.haeckerfelix.Fragments
-        - io.dbeaver.DBeaverCommunity
-        - io.github.celluloid_player.Celluloid
-        - io.github.f3d_app.f3d
+        - garden.jamie.Morphosis
         - io.github.flattool.Warehouse
         - io.github.hrkfdn.ncspot
+        - io.github.mpobaschnig.Vaults
+        - io.github.lo2dev.Echo
+        - io.github.nokse22.Exhibit
         - io.github.nokse22.inspector
         - io.github.seadve.Kooha
+        - io.github.seadve.Mousai
         - io.github.slgobinath.SafeEyes
         - io.gitlab.adhami3310.Converter
         - io.gitlab.adhami3310.Impression
@@ -100,9 +103,9 @@ modules:
         - me.dusansimic.DynamicWallpaper
         - me.iepure.devtoolbox
         - net.nokyan.Resources
-        - org.bluesabre.MenuLibre
+        - nl.hjdskes.gcolor3
+        - org.chromium.Chromium
         - org.gabmus.whatip
-        - org.gaphor.Gaphor
         - org.gnome.Builder
         - org.gnome.Calculator
         - org.gnome.Calendar
@@ -113,25 +116,21 @@ modules:
         - org.gnome.Loupe
         - org.gnome.PowerStats
         - org.gnome.Shotwell
+        - org.gnome.Showtime.Devel
         - org.gnome.Weather
         - org.gnome.World.PikaBackup
         - org.gnome.baobab
         - org.gnome.clocks
-        - org.gnome.design.Contrast
-        - org.gnome.design.Emblem
         - org.gnome.design.IconLibrary
         - org.gnome.design.Palette
         - org.gnome.design.SymbolicPreview
         - org.gnome.dspy
-        - org.gnome.font-viewer
         - org.gnome.gitlab.YaLTeR.VideoTrimmer
+        - org.gnome.gitlab.cheywood.Buffer
         - org.gnome.seahorse.Application
         - org.inkscape.Inkscape
-        - org.librehunt.Organizer
         - org.libreoffice.LibreOffice
-        - org.nickvision.tubeconverter
         - page.codeberg.libre_menu_editor.LibreMenuEditor
-        - re.sonny.Workbench
 
 # Bundles --------------------------------------------------------------------
 
