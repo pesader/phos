@@ -210,7 +210,6 @@ modules:
     install:
       - App Icons Taskbar
       - AppIndicator and KStatusNotifierItem Support
-      - Blur my Shell
       - Caffeine
       - Dim Completed Calendar Events
       - Focus changer
