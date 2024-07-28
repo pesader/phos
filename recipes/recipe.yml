@@ -20,6 +20,7 @@ modules:
       - ripgrep
       - seahorse-nautilus
       - slirp4netns
+      - solaar
       - steam-devices
       - sushi
       - zsh
