@@ -134,13 +134,6 @@ modules:
 
 # Bundles --------------------------------------------------------------------
 
-  # GNOME Netowrk Displays (depends on some codecs)
-  - type: rpm-ostree
-    install:
-      - gstreamer1-plugin-openh264
-      - gstreamer1-plugins-ugly
-      - gnome-network-displays
-
   # Pods (depends on podman-remote)
   - type: rpm-ostree
     install:
