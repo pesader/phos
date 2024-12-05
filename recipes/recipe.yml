@@ -4,6 +4,12 @@ base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 40
 
 modules:
+
+# RPMFusion ------------------------------------------------------------------
+  - type: bling
+    install:
+      - rpmfusion
+
 # First-party RPM packages ---------------------------------------------------
 
   - type: rpm-ostree
