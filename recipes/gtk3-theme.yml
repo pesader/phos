@@ -1,0 +1,16 @@
+# GTK3 theme -----------------------------------------------------------------
+
+modules:
+  - type: rpm-ostree
+    install:
+      - adw-gtk3-theme
+
+  - type: default-flatpaks
+    user:
+      install:
+        - org.gtk.Gtk3theme.adw-gtk3
+        - org.gtk.Gtk3theme.adw-gtk3-dark
+
+  - type: gschema-overrides
+    include:
+      - zz1-adw-gtk3.gschema.override

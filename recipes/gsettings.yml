@@ -1,0 +1,6 @@
+# GSettings ------------------------------------------------------------------
+
+modules:
+  - type: gschema-overrides
+    include:
+      - zz1-basics.gschema.override

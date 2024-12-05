@@ -1,0 +1,20 @@
+# Shell tools ----------------------------------------------------------------
+
+modules:
+  # fzf
+  - type: rpm-ostree
+    install:
+      - fzf
+  - type: files
+    files:
+      - source: system/usr/etc/profile.d/fzf.sh
+      - destination: /usr/etc/profile.d/fzf.sh
+
+  # zoxide
+  - type: rpm-ostree
+    install:
+      - zoxide
+  - type: files
+    files:
+      - source: system/usr/etc/profile.d/zoxide.sh
+      - destination: /usr/etc/profile.d/zoxide.sh

@@ -1,0 +1,82 @@
+# GNOME Shell Extensions -----------------------------------------------------
+
+modules:
+  # App Icons Taskbar
+  - type: gnome-extensions
+    install:
+      - App Icons Taskbar
+  - type: gschema-overrides
+    include:
+      - zz1-aztaskbar.gschema.override
+
+  # AppIndicator and KStatusNotifierItem Support
+  - type: gnome-extensions
+    install:
+      - AppIndicator and KStatusNotifierItem Support
+  - type: gschema-overrides
+    include:
+      - zz1-appindicator.gschema.override
+
+  # Caffeine
+  - type: gnome-extensions
+    install:
+      - Caffeine
+  - type: gschema-overrides
+    include:
+      - zz1-caffeine.gschema.override
+
+  # Dim Completed Calendar Events
+  - type: gnome-extensions
+    install:
+      - Dim Completed Calendar Events
+  - type: gschema-overrides
+    include:
+      - zz1-dim-completed-calendar-events.gschema.override
+
+  # Focus changer
+  - type: gnome-extensions
+    install:
+      - Focus changer
+  - type: gschema-overrides
+    include:
+      - zz1-focus-changer.gschema.override
+
+  # Hot Edge
+  - type: gnome-extensions
+    install:
+      - Hot Edge
+  - type: gschema-overrides
+    include:
+      - zz1-hotedge.gschema.override
+
+  # Just Perfection
+  - type: gnome-extensions
+    install:
+      - Just Perfection
+  - type: gschema-overrides
+    include:
+      - zz1-just-perfection.gschema.override
+
+  # Quick Close in Overview
+  - type: gnome-extensions
+    install:
+      - Quick Close in Overview
+  - type: gschema-overrides
+    include:
+      - zz1-middleclickclose.gschema.override
+
+  # Lock Keys
+  - type: gnome-extensions
+    install:
+      - 36
+  - type: gschema-overrides
+    include:
+      - zz1-lockkeys.gschema.override
+
+  # GSConnect
+  - type: rpm-ostree
+    install:
+      - gnome-shell-extension-gsconnect
+  - type: gschema-overrides
+    include:
+      - zz1-gsconnect.gschema.override

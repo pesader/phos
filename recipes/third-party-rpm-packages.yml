@@ -1,0 +1,24 @@
+# Third-party RPM packages ---------------------------------------------------
+
+modules:
+  # firefoxpwa
+  - type: script
+    scripts:
+      - add-firefoxpwa-repo.sh
+  - type: rpm-ostree
+    install:
+      - firefoxpwa
+
+  # hblock
+  - type: rpm-ostree
+    repos:
+      - https://copr.fedorainfracloud.org/coprs/pesader/hblock/repo/fedora-%OS_VERSION%/pesader-hblock-fedora-%OS_VERSION%.repo
+    install:
+      - hblock
+
+  # showmethekey
+  - type: rpm-ostree
+    repos:
+      - https://copr.fedorainfracloud.org/coprs/pesader/showmethekey/repo/fedora-%OS_VERSION%/pesader-showmethekey-fedora-%OS_VERSION%.repo
+    install:
+      - showmethekey

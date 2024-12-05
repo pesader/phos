@@ -1,0 +1,5 @@
+# Dotfiles -------------------------------------------------------------------
+
+modules:
+  - type: chezmoi
+    repository: https://github.com/pesader/dotfiles
