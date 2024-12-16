@@ -5,6 +5,7 @@ image-version: 41
 
 modules:
   - from-file: install-rpmfusion.yml
+  - from-file: remove-ublue-packages.yml
   - from-file: first-party-rpm-packages.yml
   - from-file: third-party-rpm-packages.yml
   - from-file: misc-installation-methods.yml

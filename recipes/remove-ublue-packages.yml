@@ -1,0 +1,7 @@
+# Remove UBlue RPM packages --------------------------------------------------
+
+modules:
+  - type: rpm-ostree
+    install:
+      - nvtop
+      - htop
