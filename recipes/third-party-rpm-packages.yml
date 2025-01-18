@@ -1,14 +1,6 @@
 # Third-party RPM packages ---------------------------------------------------
 
 modules:
-  # firefoxpwa
-  - type: script
-    scripts:
-      - add-firefoxpwa-repo.sh
-  - type: rpm-ostree
-    install:
-      - firefoxpwa
-
   # hblock
   - type: rpm-ostree
     repos:
