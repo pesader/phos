@@ -14,3 +14,10 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/pesader/showmethekey/repo/fedora-%OS_VERSION%/pesader-showmethekey-fedora-%OS_VERSION%.repo
     install:
       - showmethekey
+
+  # hblock
+  - type: rpm-ostree
+    repos:
+      - https://copr.fedorainfracloud.org/coprs/eclipseo/espanso/repo/fedora-%OS_VERSION%/eclipseo-espanso-fedora-%OS_VERSION%.repo
+    install:
+      - espanso-wayland
