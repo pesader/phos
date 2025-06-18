@@ -6,7 +6,6 @@ modules:
       - btrfs-assistant
       - firewall-config
       - gh
-      - gnome-backgrounds-extras
       - igt-gpu-tools
       - intel-vsc-firmware
       - nautilus-python
