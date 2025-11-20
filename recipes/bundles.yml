@@ -8,6 +8,7 @@ modules:
     install:
       - gocryptfs
   - type: default-flatpaks
-    user:
-      install:
-        - io.github.mpobaschnig.Vaults
+    configurations:
+      - notify: false
+        install:
+          - io.github.mpobaschnig.Vaults
