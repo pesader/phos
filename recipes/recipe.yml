@@ -12,7 +12,6 @@ modules:
   - from-file: flatpaks-userwide.yml
   - from-file: bundles.yml
   - from-file: gtk3-theme.yml
-  - from-file: icon-theme.yml
   - from-file: shell-tools.yml
   - from-file: gnome-shell-extensions.yml
   - from-file: dotfiles.yml

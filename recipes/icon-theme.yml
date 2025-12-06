@@ -1,8 +1,0 @@
-# Icon theme -----------------------------------------------------------------
-
-modules:
-  - type: rpm-ostree
-    repos:
-      - https://copr.fedorainfracloud.org/coprs/dusansimic/themes/repo/fedora-%OS_VERSION%/dusansimic-themes-fedora-%OS_VERSION%.repo
-    install:
-      - morewaita-icon-theme
