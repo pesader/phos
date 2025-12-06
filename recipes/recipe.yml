@@ -1,7 +1,7 @@
 name: phos
 description: A custom UBlue image for my own personal usage
 base-image: ghcr.io/ublue-os/silverblue-main
-image-version: 42
+image-version: 43
 
 modules:
   - from-file: install-rpmfusion.yml
