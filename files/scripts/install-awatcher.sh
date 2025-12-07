@@ -6,7 +6,7 @@
 set -oue pipefail
 
 # Your code goes here.
-version=0.2.0
+version=0.13.2
 
 curl -L -s "https://github.com/2e3s/awatcher/releases/download/v${version}/awatcher-bundle.zip" -o awatcher-bundle.zip
 unzip awatcher-bundle.zip
