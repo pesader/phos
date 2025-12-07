@@ -2,15 +2,17 @@
 
 modules:
   # hblock
-  - type: rpm-ostree
+  - type: dnf
     repos:
-      - https://copr.fedorainfracloud.org/coprs/pesader/hblock/repo/fedora-%OS_VERSION%/pesader-hblock-fedora-%OS_VERSION%.repo
+      copr:
+        - pesader/hblock
     install:
       - hblock
 
   # showmethekey
-  - type: rpm-ostree
+  - type: dnf
     repos:
-      - https://copr.fedorainfracloud.org/coprs/pesader/showmethekey/repo/fedora-%OS_VERSION%/pesader-showmethekey-fedora-%OS_VERSION%.repo
+      copr:
+        - pesader/showmethekey
     install:
       - showmethekey
