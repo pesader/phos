@@ -30,7 +30,6 @@ modules:
           - io.github.flattool.Ignition
           - io.github.flattool.Warehouse
           - io.github.kelvinnovais.Kasasa
-          - io.github.mpobaschnig.Vaults
           - io.github.slgobinath.SafeEyes
           - io.gitlab.adhami3310.Converter
           - io.gitlab.adhami3310.Impression
