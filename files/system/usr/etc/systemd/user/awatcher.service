@@ -1,0 +1,13 @@
+[Unit]
+Description=ActivityWatch Server (awatcher)
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/awatcher
+Restart=always
+RestartSec=5
+Environment=XDG_RUNTIME_DIR=/run/user/%U
+
+[Install]
+WantedBy=default.target
