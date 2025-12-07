@@ -1,7 +1,0 @@
-# Miscellaneous installation methods
-
-modules:
-  # awatcher (shell script)
-  - type: script
-    scripts:
-      - install-awatcher.sh

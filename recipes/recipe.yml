@@ -8,7 +8,6 @@ modules:
   - from-file: remove-ublue-packages.yml
   - from-file: first-party-rpm-packages.yml
   - from-file: third-party-rpm-packages.yml
-  - from-file: misc-installation-methods.yml
   - from-file: flatpaks-userwide.yml
   - from-file: bundles.yml
   - from-file: gtk3-theme.yml

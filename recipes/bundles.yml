@@ -18,3 +18,21 @@ modules:
       - notify: false
         install:
           - io.github.mpobaschnig.Vaults
+
+  # ActivityWatch ------------------------------------------------------------
+
+  # awatcher binary executable
+  - type: script
+    scripts:
+      - install-awatcher.sh
+
+  # GNOME Shell extension
+  - type: gnome-extensions
+    install:
+      - Focused Window D-Bus
+
+  # systemd unit
+  - type: files
+    files:
+      - source: system/usr/etc/systemd/user/awatcher.service
+      - destination: /usr/etc/systemd/user/awatcher.service
