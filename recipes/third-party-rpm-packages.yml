@@ -7,7 +7,8 @@ modules:
       copr:
         - pesader/hblock
     install:
-      - hblock
+      packages:
+        - hblock
 
   # showmethekey
   - type: dnf
@@ -15,4 +16,5 @@ modules:
       copr:
         - pesader/showmethekey
     install:
-      - showmethekey
+      packages:
+        - showmethekey
