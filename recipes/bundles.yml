@@ -1,7 +1,9 @@
 # Bundles --------------------------------------------------------------------
 
 modules:
-  # Vaults (depends on gocryptfs)
+  # Vaults -------------------------------------------------------------------
+
+  # gocrypts RPM package
   - type: dnf
     repos:
       copr:
@@ -9,6 +11,8 @@ modules:
     install:
       packages:
         - gocryptfs
+
+  # Vaults flatpak app
   - type: default-flatpaks
     configurations:
       - notify: false
