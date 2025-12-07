@@ -1,4 +1,4 @@
-# First-party RPM packages ---------------------------------------------------
+# First-party RPM packages
 
 modules:
   - type: dnf

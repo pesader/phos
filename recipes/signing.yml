@@ -1,4 +1,4 @@
-# Signing policy -------------------------------------------------------------
+# Signing policy
 
 modules:
   - type: signing

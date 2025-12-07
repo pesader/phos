@@ -1,4 +1,4 @@
-# Flatpaks -------------------------------------------------------------------
+# Flatpaks
 
 modules:
   - type: default-flatpaks

@@ -1,4 +1,4 @@
-# Remove UBlue RPM packages --------------------------------------------------
+# Remove UBlue RPM packages
 
 modules:
   - type: dnf

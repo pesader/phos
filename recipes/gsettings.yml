@@ -1,4 +1,4 @@
-# GSettings ------------------------------------------------------------------
+# GSettings
 
 modules:
   - type: gschema-overrides
