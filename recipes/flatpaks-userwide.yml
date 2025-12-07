@@ -41,7 +41,6 @@ modules:
           - org.gnome.Contacts
           - org.gnome.Logs
           - org.gnome.Loupe
-          - org.gnome.Shotwell
           - org.gnome.Showtime
           - org.gnome.Weather
           - org.gnome.World.PikaBackup
