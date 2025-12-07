@@ -1,19 +1,20 @@
 # First-party RPM packages ---------------------------------------------------
 
 modules:
-  - type: rpm-ostree
+  - type: dnf
     install:
-      - btrfs-assistant
-      - firewall-config
-      - gh
-      - igt-gpu-tools
-      - intel-vsc-firmware
-      - nautilus-python
-      - neovim
-      - ripgrep
-      - seahorse-nautilus
-      - slirp4netns
-      - solaar
-      - steam-devices
-      - sushi
-      - zsh
+      packages:
+        - btrfs-assistant
+        - firewall-config
+        - gh
+        - igt-gpu-tools
+        - intel-vsc-firmware
+        - nautilus-python
+        - neovim
+        - ripgrep
+        - seahorse-nautilus
+        - slirp4netns
+        - solaar
+        - steam-devices
+        - sushi
+        - zsh

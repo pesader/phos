@@ -74,9 +74,9 @@ modules:
       - zz1-lockkeys.gschema.override
 
   # GSConnect
-  - type: rpm-ostree
+  - type: gnome-extensions
     install:
-      - gnome-shell-extension-gsconnect
+      - GSConnect
   - type: gschema-overrides
     include:
       - zz1-gsconnect.gschema.override

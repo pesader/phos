@@ -2,18 +2,20 @@
 
 modules:
   # fzf
-  - type: rpm-ostree
+  - type: dnf
     install:
-      - fzf
+      packages:
+        - fzf
   - type: files
     files:
       - source: system/usr/etc/profile.d/fzf.sh
       - destination: /usr/etc/profile.d/fzf.sh
 
   # zoxide
-  - type: rpm-ostree
+  - type: dnf
     install:
-      - zoxide
+      packages:
+        - zoxide
   - type: files
     files:
       - source: system/usr/etc/profile.d/zoxide.sh

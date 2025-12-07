@@ -1,9 +1,10 @@
 # GTK3 theme -----------------------------------------------------------------
 
 modules:
-  - type: rpm-ostree
+  - type: dnf
     install:
-      - adw-gtk3-theme
+      packages:
+        - adw-gtk3-theme
 
   - type: default-flatpaks
     configurations:

@@ -2,11 +2,13 @@
 
 modules:
   # Vaults (depends on gocryptfs)
-  - type: rpm-ostree
+  - type: dnf
     repos:
-      - https://copr.fedorainfracloud.org/coprs/pesader/gocryptfs/repo/fedora-%OS_VERSION%/pesader-gocryptfs-fedora-%OS_VERSION%.repo
+      copr:
+        - pesader/gocryptfs
     install:
-      - gocryptfs
+      packages:
+        - gocryptfs
   - type: default-flatpaks
     configurations:
       - notify: false
