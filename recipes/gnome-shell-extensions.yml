@@ -72,11 +72,3 @@ modules:
   - type: gschema-overrides
     include:
       - zz1-lockkeys.gschema.override
-
-  # GSConnect
-  - type: gnome-extensions
-    install:
-      - GSConnect
-  - type: gschema-overrides
-    include:
-      - zz1-gsconnect.gschema.override
