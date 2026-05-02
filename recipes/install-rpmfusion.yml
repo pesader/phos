@@ -1,6 +1,0 @@
-# RPMFusion
-
-modules:
-  - type: bling
-    install:
-      - rpmfusion
