@@ -4,7 +4,7 @@ base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 44
 
 modules:
-  - from-file: install-rpmfusion.yml
+  # - from-file: install-rpmfusion.yml
   - from-file: remove-ublue-packages.yml
   - from-file: first-party-rpm-packages.yml
   - from-file: third-party-rpm-packages.yml
