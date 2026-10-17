@@ -23,7 +23,6 @@ modules:
           - com.protonvpn.www
           - com.stremio.Stremio
           - com.valvesoftware.Steam
-          - com.vscodium.codium
           - de.haeckerfelix.Fragments
           - dev.qwery.AddWater
           - im.riot.Riot
