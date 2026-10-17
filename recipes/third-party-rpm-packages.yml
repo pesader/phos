@@ -18,3 +18,14 @@ modules:
     install:
       packages:
         - showmethekey
+
+  # VS Code
+  - type: dnf
+    repos:
+      keys:
+        - https://packages.microsoft.com/keys/microsoft.asc
+      files:
+        - vscode.repo
+    install:
+      packages:
+        - code
