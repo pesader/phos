@@ -6,6 +6,7 @@ modules:
       packages:
         - btrfs-assistant
         - firewall-config
+        - fuse-libs
         - gh
         - igt-gpu-tools
         - intel-vsc-firmware
