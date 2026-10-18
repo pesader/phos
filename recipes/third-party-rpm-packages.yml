@@ -43,7 +43,7 @@ modules:
       files:
         - https://raw.githubusercontent.com/terrapkg/packages/f%OS_VERSION%/anda/terra/release/terra.repo
     install:
-      no-gpgpchecks: true
+      no-gpgchecks: true
       packages:
         - terra-release
         - terra-gpg-keys
