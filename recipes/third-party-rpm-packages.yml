@@ -29,3 +29,10 @@ modules:
     install:
       packages:
         - code
+
+  # Voxtype
+  - type: dnf
+    install:
+      packages:
+        - https://github.com/peteonrails/voxtype/releases/download/v1.1.1/voxtype-1.1.1-1.x86_64.rpm
+        - gtk4-layer-shell
