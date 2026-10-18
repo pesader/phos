@@ -43,7 +43,12 @@ modules:
       files:
         - https://raw.githubusercontent.com/terrapkg/packages/f%OS_VERSION%/anda/terra/release/terra.repo
     install:
+      no-gpgpchecks: true
       packages:
         - terra-release
         - terra-gpg-keys
+
+  - type: dnf
+    install:
+      packages:
         - espanso-wayland
