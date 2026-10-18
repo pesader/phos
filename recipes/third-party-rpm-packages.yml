@@ -36,3 +36,14 @@ modules:
       packages:
         - https://github.com/peteonrails/voxtype/releases/download/v1.1.1/voxtype-1.1.1-1.x86_64.rpm
         - gtk4-layer-shell
+
+  # Espanso
+  - type: dnf
+    repos:
+      files:
+        - https://raw.githubusercontent.com/terrapkg/packages/f%OS_VERSION%/anda/terra/release/terra.repo
+    install:
+      packages:
+        - terra-release
+        - terra-gpg-keys
+        - espanso-wayland
